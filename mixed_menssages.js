@@ -167,7 +167,8 @@ function randomCards() {
     let card2 = cards[randNum2];
     let card3 = cards[randNum3];
 
-    console.log(`Your fate was read, your past is shown by ${card1["name"]}, your present is ruled by ${card2["name"]}, and your future will be guided by ${card3["name"]}.`);
+    console.log(`Your fate was read, your past is shown by ${card1["name"]} with ${card1["mainLine"]}, your present is ruled by ${card2["name"]} with ${card2["mainLine"]}, and your future will be guided by ${card3["name"]} with ${card3["mainLine"]}.`);
     console.log(" ");
+    console.log(`In your past, there was ${card1["secondLine"]}, in your present, there is ${card2["secondLine"]} and in your future there will be ${card3["secondLine"]}`);
 }
 
